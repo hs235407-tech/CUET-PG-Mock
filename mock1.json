@@ -1,0 +1,1205 @@
+   // ==========================================
+        // 1. DATASET (megaVault) - 100% LaTeX FORMATTED
+        // ==========================================
+        const megaVault = [
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 1,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "A consumer chooses bundle X when bundle Y is available and strictly affordable. According to the Weak Axiom of Revealed Preference (WARP), if the consumer later chooses bundle Y under a new set of prices, which of the following must be true?",
+    "options": [
+      "Bundle X must be unaffordable at the new prices.",
+      "Bundle X must be strictly affordable at the new prices.",
+      "The consumer's preferences must have changed.",
+      "Bundle Y must be cheaper than bundle X at the new prices."
+    ],
+    "ans": 0,
+    "explanation": "WARP states that if X is revealed preferred to Y, Y can never be revealed preferred to X. Therefore, if the consumer later chooses Y, it must be because X is no longer affordable under the new budget constraint."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 2,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Consider the following statements regarding the long-run equilibrium of a firm under monopolistic competition:\nA. The firm earns zero economic profit.\nB. The firm produces at the minimum point of its long-run average cost curve.\nC. The firm charges a price equal to its marginal cost.\nD. The firm operates with excess capacity.\nChoose the correct answer from the options given below:",
+    "options": [
+      "A and D only",
+      "A, B, and D only",
+      "B and C only",
+      "A, C, and D only"
+    ],
+    "ans": 0,
+    "explanation": "In the long run, free entry drives economic profits to zero (A is true). Because the demand curve is downward-sloping, the tangency with the AC curve occurs to the left of the minimum AC point, meaning the firm does not minimize AC and operates with excess capacity (B is false, D is true). Price is marked up above MC (C is false)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 3,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Consider a duopoly where Firm A and Firm B simultaneously choose between two strategies: 'High Advertising' and 'Low Advertising'. The payoff matrix (Profits in million Rs) is given below, where the first value is Firm A's profit and the second is Firm B's profit:\nIf both choose High, payoffs are (20, 20).\nIf both choose Low, payoffs are (50, 50).\nIf A chooses High and B chooses Low, payoffs are (60, 10).\nIf A chooses Low and B chooses High, payoffs are (10, 60).\nWhich of the following describes the Nash Equilibrium of this game?",
+    "options": [
+      "Both firms choose Low Advertising.",
+      "Both firms choose High Advertising.",
+      "Firm A chooses High and Firm B chooses Low.",
+      "Firm A chooses Low and Firm B chooses High."
+    ],
+    "ans": 1,
+    "explanation": "This is a classic Prisoner's Dilemma. Regardless of what the other firm does, choosing 'High Advertising' yields a strictly higher payoff for both firms (60 > 50, and 20 > 10). Therefore, 'High Advertising' is a strictly dominant strategy, leading to the (20, 20) Nash Equilibrium."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 4,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Assertion A: In an Edgeworth box for a pure exchange economy, every point on the contract curve is Pareto optimal.\nReason R: At any point on the contract curve, the marginal rates of substitution for both consumers are equal, meaning no mutually beneficial trades remain.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is NOT the correct explanation of A",
+      "A is correct but R is not correct",
+      "A is not correct but R is correct"
+    ],
+    "ans": 0,
+    "explanation": "The contract curve is explicitly defined as the locus of all Pareto efficient allocations. Efficiency in exchange occurs exactly where the indifference curves of the two consumers are tangent ($MRS_A = MRS_B$), which is the exact reasoning provided in R."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 5,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "A firm's production function is given by $Q = 10 K^{0.6} L^{0.5}$. If the firm increases both capital (K) and labour (L) by exactly 20%, the total output (Q) will:",
+    "options": [
+      "Increase by exactly 20%",
+      "Increase by less than 20%",
+      "Increase by more than 20%",
+      "Remain unchanged"
+    ],
+    "ans": 2,
+    "explanation": "This is a Cobb-Douglas production function. The sum of the exponents ($\\alpha + \\beta$) is $0.6 + 0.5 = 1.1$. Since $1.1 > 1$, the production function exhibits increasing returns to scale. Therefore, a 20% increase in all inputs will cause output to increase by more than 20%."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 6,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "A consumer's utility function is $U(X,Y) = X^2 Y$. The price of good X is Rs. 2 per unit, and the price of good Y is Rs. 4 per unit. If the consumer's total budget is Rs. 120, what is the utility-maximizing quantity of good X?",
+    "options": [
+      "20 units",
+      "40 units",
+      "30 units",
+      "10 units"
+    ],
+    "ans": 1,
+    "explanation": "$MU_x = 2XY$ and $MU_y = X^2$. The optimality condition is $MRS = P_x / P_y$. Therefore, $\\frac{2XY}{X^2} = \\frac{2}{4}$. Simplifying gives $\\frac{2Y}{X} = \\frac{1}{2}$, meaning $X = 4Y$. Substitute this into the budget constraint $2X + 4Y = 120$. Replace $4Y$ with $X$: $2X + X = 120$, so $3X = 120$. Therefore, $X = 40$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 7,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Two identical firms operate in a Cournot duopoly facing the market demand curve $P = 100 - Q$, where $Q = q_1 + q_2$. Each firm has a constant marginal cost of 10. What is the profit-maximizing equilibrium output of each firm?",
+    "options": [
+      "30 units",
+      "45 units",
+      "20 units",
+      "40 units"
+    ],
+    "ans": 0,
+    "explanation": "In a symmetric Cournot duopoly with linear demand $P = a - bQ$ and constant marginal cost $c$, the equilibrium output for each firm is $q = \\frac{a - c}{3b}$. Here, $a = 100$, $c = 10$, and $b = 1$. Therefore, $q = \\frac{100 - 10}{3} = \\frac{90}{3} = 30$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 8,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Match LIST-I with LIST-II regarding Monopoly Price Discrimination:\nLIST-I\nA. First-degree price discrimination\nB. Second-degree price discrimination\nC. Third-degree price discrimination\nD. Two-part tariff\n\nLIST-II\nI. Charging different prices for different blocks or quantities of the same good.\nII. Charging an upfront fee for the right to purchase, plus a per-unit charge.\nIII. Charging each consumer their exact maximum willingness to pay.\nIV. Segmenting the market into distinct demographic groups and charging a different price to each.\n\nChoose the correct answer:",
+    "options": [
+      "A-III, B-I, C-IV, D-II",
+      "A-III, B-IV, C-I, D-II",
+      "A-I, B-III, C-IV, D-II",
+      "A-IV, B-II, C-III, D-I"
+    ],
+    "ans": 0,
+    "explanation": "First-degree (perfect) discrimination extracts all surplus (A-III). Second-degree involves quantity discounts or block pricing (B-I). Third-degree segments the market based on observable traits like age or student status (C-IV). A two-part tariff consists of an entry fee and a usage fee (D-II)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 9,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "A steel factory produces steel (S) with a marginal private cost $MPC = 10 + 2S$. The production process generates pollution, causing a marginal external damage $MED = S$. The market demand for steel is $P = 100 - S$. What is the socially optimal level of steel production, and what should be the optimal Pigouvian tax per unit at that level?",
+    "options": [
+      "$S = 30$, Tax = 30",
+      "$S = 25$, Tax = 25",
+      "$S = 22.5$, Tax = 22.5",
+      "$S = 30$, Tax = 15"
+    ],
+    "ans": 2,
+    "explanation": "The Marginal Social Cost is $MSC = MPC + MED = (10 + 2S) + S = 10 + 3S$. The social optimum occurs where $MSC = MSB$ (Demand). Setting $10 + 3S = 100 - S$ gives $4S = 90$, so $S = 22.5$. The optimal Pigouvian tax is equal to the marginal external damage evaluated at the optimal quantity: Tax = $MED = S = 22.5$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 10,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "When the price of an inferior good decreases, which of the following correctly describes the directional impact of the substitution and income effects?",
+    "options": [
+      "Both the substitution and income effects encourage the consumer to buy more of the good.",
+      "The substitution effect encourages buying more, but the income effect encourages buying less of the good.",
+      "Both the substitution and income effects encourage the consumer to buy less of the good.",
+      "The substitution effect encourages buying less, but the income effect encourages buying more of the good."
+    ],
+    "ans": 1,
+    "explanation": "By definition, the substitution effect of a price decrease always causes the consumer to buy more of the good (negative own-price substitution effect). However, because it is an inferior good, the resulting increase in real income causes the consumer to buy less of it, creating an opposing income effect."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 11,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "A firm's short-run total cost function is given by $TC = Q^3 - 10Q^2 + 50Q + 100$. At what level of output does the firm's Average Variable Cost (AVC) reach its absolute minimum?",
+    "options": [
+      "$Q = 5$",
+      "$Q = 10$",
+      "$Q = 15$",
+      "$Q = 20$"
+    ],
+    "ans": 0,
+    "explanation": "Total Variable Cost (TVC) is $Q^3 - 10Q^2 + 50Q$. Average Variable Cost (AVC) is $TVC / Q = Q^2 - 10Q + 50$. To find the minimum AVC, take the first derivative with respect to Q and set it to zero: $\\frac{d(AVC)}{dQ} = 2Q - 10 = 0$. Solving this gives $2Q = 10$, meaning $Q = 5$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 12,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Consider a community of 3 identical individuals evaluating a pure public good. Each individual has a marginal willingness to pay given by $MWP = 20 - 2G$, where G is the quantity of the public good. The marginal cost of providing the public good is a constant 30. According to the Samuelson condition, what is the socially efficient quantity of the public good?",
+    "options": [
+      "$G = 5$",
+      "$G = 15$",
+      "$G = 7.5$",
+      "$G = 10$"
+    ],
+    "ans": 0,
+    "explanation": "For a pure public good, the aggregate marginal benefit is the vertical sum of individual marginal willingness to pay. $\\sum MWP = 3 \\times (20 - 2G) = 60 - 6G$. The Samuelson efficiency condition requires $\\sum MWP = MC$. Setting $60 - 6G = 30$ gives $6G = 30$, resulting in $G = 5$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 13,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Arrange the following market structures in descending order of allocative efficiency (from highest total social surplus to lowest), assuming identical cost conditions and no price discrimination:\nA. Perfect Competition\nB. Single-price Monopoly\nC. Cournot Duopoly",
+    "options": [
+      "B, C, A",
+      "A, C, B",
+      "C, A, B",
+      "A, B, C"
+    ],
+    "ans": 1,
+    "explanation": "Perfect competition achieves maximum allocative efficiency (no deadweight loss). A single-price monopoly restricts output the most, leading to the highest deadweight loss and lowest efficiency. A Cournot duopoly produces a total output greater than a monopoly but less than perfect competition. The correct descending sequence is A, C, B."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 14,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Which of the following statements is CORRECT regarding a firm that operates as a monopsonist in the labor market but acts as a perfect competitor in the product market?",
+    "options": [
+      "The firm hires labor up to the point where Marginal Revenue Product equals the Wage Rate.",
+      "The firm faces a perfectly elastic labor supply curve.",
+      "The Marginal Factor Cost of labor is strictly greater than the wage rate, and the firm hires where Marginal Factor Cost equals Marginal Revenue Product.",
+      "The firm pays a wage rate exactly equal to the Marginal Revenue Product of labor."
+    ],
+    "ans": 2,
+    "explanation": "A monopsonist is the sole buyer of labor and faces an upward-sloping labor supply curve. To hire an additional worker, it must raise the wage for all workers, meaning the Marginal Factor Cost (MFC) is greater than the wage. The firm maximizes profit by hiring where MFC = Marginal Revenue Product (MRP), then pays the lower wage dictated by the supply curve."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 15,
+    "type": "MCQ",
+    "section": "Microeconomics",
+    "q": "Suppose a consumer's utility function is given by the Leontief form $U(X,Y) = \\min\\{3X, 2Y\\}$. If the price of good X is $P_x = 10$, the price of good Y is $P_y = 5$, and the consumer's total income is $M = 140$, what is the optimal consumption bundle?",
+    "options": [
+      "$X = 8, Y = 12$",
+      "$X = 10, Y = 15$",
+      "$X = 12, Y = 8$",
+      "$X = 7, Y = 14$"
+    ],
+    "ans": 0,
+    "explanation": "Leontief preferences imply the consumer always consumes in fixed proportions where $3X = 2Y$. Therefore, $Y = 1.5X$. Substituting this into the budget constraint $P_x X + P_y Y = M$ gives $10X + 5(1.5X) = 140$. This simplifies to $10X + 7.5X = 140$, so $17.5X = 140$. Solving yields $X = 8$. Substituting back, $3(8) = 24 = 2Y$, meaning $Y = 12$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 16,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "In a closed economy, the consumption function is $C = 100 + 0.8Y_d$, where $Y_d$ is disposable income. The proportional income tax rate is $t = 0.25$. Investment is $I = 200 - 10i$, and government spending is $G = 150$. What is the equation of the IS curve?",
+    "options": [
+      "$i = 45 - 0.04Y$",
+      "$i = 450 - 0.4Y$",
+      "$i = 45 - 0.4Y$",
+      "$i = 112.5 - 2.5Y$"
+    ],
+    "ans": 0,
+    "explanation": "First, find disposable income: $Y_d = Y - tY = Y - 0.25Y = 0.75Y$. Substitute this into the consumption function: $C = 100 + 0.8(0.75Y) = 100 + 0.6Y$. The goods market equilibrium is $Y = C + I + G$. Substituting the functions: $Y = 100 + 0.6Y + 200 - 10i + 150$. Rearranging gives $Y - 0.6Y = 450 - 10i$, which is $0.4Y = 450 - 10i$. Solving for $i$ yields $10i = 450 - 0.4Y$, so $i = 45 - 0.04Y$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 17,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Assume the public holds a currency-to-deposit ratio of 20% (0.2), and banks maintain a reserve-to-deposit ratio of 10% (0.1). If the central bank injects high-powered money (base money) worth Rs. 500 crore, what will be the total money supply in the economy?",
+    "options": [
+      "Rs. 1500 crore",
+      "Rs. 2000 crore",
+      "Rs. 2500 crore",
+      "Rs. 5000 crore"
+    ],
+    "ans": 1,
+    "explanation": "The money multiplier ($m$) formula is $m = \\frac{1 + cr}{cr + rr}$, where $cr$ is the currency ratio and $rr$ is the reserve ratio. Here, $m = \\frac{1 + 0.2}{0.2 + 0.1} = \\frac{1.2}{0.3} = 4$. The total money supply ($M$) is the multiplier times the monetary base ($H$). $M = m \\times H = 4 \\times 500 = 2000$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 18,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "In the Solow-Swan growth model, the per-worker production function is $y = k^{0.5}$. The savings rate is $s = 0.4$, the depreciation rate is $d = 0.1$, and there is no population growth or technological progress ($n = 0$, $g = 0$). What is the steady-state level of consumption per worker?",
+    "options": [
+      "4.0",
+      "16.0",
+      "2.4",
+      "1.6"
+    ],
+    "ans": 2,
+    "explanation": "The steady-state condition is $sy = (d + n + g)k$. Substituting the given values: $0.4 k^{0.5} = 0.1 k$. Dividing both sides by $k^{0.5}$ gives $0.4 = 0.1 k^{0.5}$, which means $k^{0.5} = 4$. Thus, steady-state capital $k = 16$. Steady-state output $y = 16^{0.5} = 4$. Consumption per worker $c = y - sy = 4 - (0.4 \\times 4) = 4 - 1.6 = 2.4$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 19,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Assertion A: In the long run, the Expectations-Augmented Phillips Curve is perfectly vertical at the natural rate of unemployment.\nReason R: In the long run, economic agents fully adjust their inflation expectations to match actual inflation, eliminating any trade-off between inflation and unemployment.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is NOT the correct explanation of A",
+      "A is correct but R is not correct",
+      "A is not correct but R is correct"
+    ],
+    "ans": 0,
+    "explanation": "When actual inflation equals expected inflation, the unemployment rate settles at its natural rate regardless of the inflation level. Because expectations fully adjust in the long run (Reason R), the long-run Phillips Curve becomes a vertical line (Assertion A)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 20,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Consider a small open economy with perfect capital mobility and a fixed exchange rate (the Mundell-Fleming model). If the government implements an expansionary fiscal policy, which of the following statements are CORRECT?\nA. Fiscal policy is highly effective in increasing national income.\nB. Monetary policy becomes independent and highly effective.\nC. The central bank must intervene by buying foreign currency to maintain the peg.\nD. The LM curve remains strictly stationary throughout the adjustment.",
+    "options": [
+      "A and B only",
+      "A and C only",
+      "B and D only",
+      "C and D only"
+    ],
+    "ans": 1,
+    "explanation": "Under fixed exchange rates and perfect capital mobility, fiscal expansion shifts IS right, putting upward pressure on domestic interest rates. This triggers capital inflows, putting appreciation pressure on the exchange rate. To maintain the peg, the central bank buys foreign currency (C is correct) and sells domestic currency, which increases the money supply. This shifts the LM curve rightward, resulting in a large increase in income (A is correct)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 21,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Match LIST-I (Consumption Theories) with LIST-II (Economists):\nLIST-I\nA. Permanent Income Hypothesis\nB. Absolute Income Hypothesis\nC. Life Cycle Hypothesis\nD. Relative Income Hypothesis\n\nLIST-II\nI. John Maynard Keynes\nII. James Duesenberry\nIII. Milton Friedman\nIV. Franco Modigliani\n\nChoose the correct answer from the options given below:",
+    "options": [
+      "A-III, B-I, C-IV, D-II",
+      "A-III, B-I, C-II, D-IV",
+      "A-IV, B-II, C-III, D-I",
+      "A-I, B-III, C-IV, D-II"
+    ],
+    "ans": 0,
+    "explanation": "Permanent Income is Friedman (A-III). Absolute Income is Keynes (B-I). Life Cycle is Modigliani (C-IV). Relative Income is Duesenberry (D-II)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 22,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Given the following national income data for an economy:\nGross Domestic Product at market price ($GDP_{mp}$) = 2000\nNet Factor Income from Abroad (NFIA) = -50\nDepreciation = 150\nNet Indirect Taxes (NIT) = 200\nCalculate the National Income (Net National Product at factor cost, $NNP_{fc}$).",
+    "options": [
+      "1600",
+      "1650",
+      "1750",
+      "2100"
+    ],
+    "ans": 0,
+    "explanation": "Gross National Product at market price ($GNP_{mp}$) = $GDP_{mp} + NFIA = 2000 + (-50) = 1950$. Net National Product at market price ($NNP_{mp}$) = $GNP_{mp} - \\text{Depreciation} = 1950 - 150 = 1800$. National Income ($NNP_{fc}$) = $NNP_{mp} - NIT = 1800 - 200 = 1600$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 23,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "In a simple Keynesian model, the marginal propensity to consume ($c$) is 0.8. Initially, there are no taxes. The government then introduces a proportional income tax rate ($t$) of 25% (0.25). What is the value of the new spending multiplier?",
+    "options": [
+      "5.0",
+      "2.5",
+      "4.0",
+      "2.0"
+    ],
+    "ans": 1,
+    "explanation": "The formula for the spending multiplier with a proportional tax is $k = \\frac{1}{1 - c(1 - t)}$. Substituting the values: $k = \\frac{1}{1 - 0.8(1 - 0.25)} = \\frac{1}{1 - 0.8(0.75)} = \\frac{1}{1 - 0.6} = \\frac{1}{0.4} = 2.5$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 24,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Which of the following statements regarding the measures of money supply in India are CORRECT?\nA. M1 consists of currency with the public, demand deposits with banks, and other deposits with the RBI.\nB. M3 is considered 'broad money'.\nC. M3 is equal to M1 plus post office savings bank deposits.\nD. M4 equals M3 plus total post office deposits (excluding National Savings Certificates).\nChoose the correct answer from the options given below:",
+    "options": [
+      "A, B, and D only",
+      "A, B, and C only",
+      "B, C, and D only",
+      "A, C, and D only"
+    ],
+    "ans": 0,
+    "explanation": "Statements A, B, and D are standard RBI definitions of monetary aggregates. Statement C is incorrect because M1 plus post office savings bank deposits defines M2, not M3. M3 is M1 plus time deposits with the banking system."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 25,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Arrange the following seminal macroeconomic publications/concepts in chronological order from oldest to latest:\nA. The General Theory of Employment, Interest and Money (Keynes)\nB. The Wealth of Nations (Smith)\nC. The Restatement of the Quantity Theory of Money (Friedman)\nD. The Lucas Critique (Lucas)\nChoose the correct sequence from the options below:",
+    "options": [
+      "B, A, C, D",
+      "A, B, C, D",
+      "B, A, D, C",
+      "C, A, B, D"
+    ],
+    "ans": 0,
+    "explanation": "Smith's Wealth of Nations was published in 1776 (Classical). Keynes' General Theory was published in 1936. Friedman's Restatement of the Quantity Theory (Monetarism) was published in 1956. The Lucas Critique (New Classical) was formulated in 1976."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 26,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "According to the Golden Rule of capital accumulation in the Solow growth model, the steady-state level of consumption per worker is maximized when:",
+    "options": [
+      "The marginal product of capital equals the sum of the depreciation rate and the population growth rate ($MPK = d + n$).",
+      "The marginal product of capital equals the savings rate ($MPK = s$).",
+      "The marginal product of capital is zero ($MPK = 0$).",
+      "The savings rate equals the depreciation rate ($s = d$)."
+    ],
+    "ans": 0,
+    "explanation": "The Golden Rule steady state occurs where the gap between the output curve and the break-even investment line is widest. Mathematically, this happens where the slope of the production function ($MPK$) exactly equals the slope of the break-even investment line ($d + n$)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 27,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "According to the Baumol-Tobin inventory theoretic approach to the transaction demand for money, if an individual's real income ($Y$) increases by exactly four times, ceteris paribus, their transaction demand for money will:",
+    "options": [
+      "Double",
+      "Quadruple",
+      "Halve",
+      "Remain unchanged"
+    ],
+    "ans": 0,
+    "explanation": "The Baumol-Tobin model defines optimal money demand as $M = \\sqrt{\\frac{Y \\times F}{2r}}$. Because money demand depends on the square root of income ($Y$), increasing $Y$ by a factor of 4 increases $M$ by a factor of $\\sqrt{4}$, which is 2. Thus, money demand doubles."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 28,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Assertion A: In a liquidity trap, expansionary monetary policy is completely ineffective in raising the level of national income.\nReason R: The LM curve is perfectly horizontal because the interest elasticity of money demand is infinite, meaning any increase in money supply is absorbed as idle balances without lowering interest rates to stimulate investment.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is NOT the correct explanation of A",
+      "A is correct but R is not correct",
+      "A is not correct but R is correct"
+    ],
+    "ans": 0,
+    "explanation": "A liquidity trap occurs at very low interest rates where agents prefer to hold cash rather than bonds. This makes money demand infinitely elastic (horizontal LM curve). Because the interest rate cannot fall any further, investment does not rise, neutralizing monetary policy."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 29,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "In the Harrod-Domar growth model, if the savings rate ($s$) is 24% and the capital-output ratio ($v$) is 4, what is the warranted rate of growth ($G_w$)?",
+    "options": [
+      "6.0%",
+      "8.0%",
+      "10.0%",
+      "12.0%"
+    ],
+    "ans": 0,
+    "explanation": "The warranted rate of growth is the rate of income growth required to keep the capital stock fully utilized. It is calculated as $G_w = s / v$. Here, $G_w = 0.24 / 4 = 0.06$, or 6.0%."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 30,
+    "type": "MCQ",
+    "section": "Macroeconomics",
+    "q": "Under the Classical macroeconomic framework, an increase in aggregate demand leads to:",
+    "options": [
+      "Higher output and higher prices",
+      "Higher output and constant prices",
+      "Constant output and higher prices",
+      "Constant output and lower prices"
+    ],
+    "ans": 2,
+    "explanation": "In the Classical model, the aggregate supply curve is perfectly vertical at the full-employment level of output. Any rightward shift in the aggregate demand curve will strictly increase the price level without changing real output."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 31,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "A 2x2 matrix A has a trace of 7 and a determinant of 10. What are the eigenvalues of matrix A?",
+    "options": [
+      "2 and 5",
+      "1 and 10",
+      "-2 and -5",
+      "3 and 4"
+    ],
+    "ans": 0,
+    "explanation": "The properties of eigenvalues state that the sum of the eigenvalues equals the trace of the matrix, and the product of the eigenvalues equals the determinant. Setting up the equations: $\\lambda_1 + \\lambda_2 = 7$ and $\\lambda_1 \\times \\lambda_2 = 10$. The numbers that satisfy both conditions are 2 and 5."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 32,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "Arrange the following steps in the proper chronological sequence concerning the graphical solution of a linear programming maximization problem:\nA. Identify the feasible region satisfying all constraints.\nB. Formulate the objective function and the linear constraints.\nC. Find the coordinates of the corner points of the feasible region.\nD. Evaluate the objective function at each corner point to find the maximum.",
+    "options": [
+      "B, A, C, D",
+      "A, B, C, D",
+      "B, C, A, D",
+      "C, A, B, D"
+    ],
+    "ans": 0,
+    "explanation": "The correct logical sequence for solving a linear programming problem graphically is to first formulate the math model (B), graph it to find the feasible region (A), identify the corner points of that region (C), and finally evaluate the objective function at those corners to find the maximum (D)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 33,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "A production function is given by $Q = 4 K^{0.7} L^{0.5}$. According to Euler's theorem, the value of $K\\left(\\frac{\\partial Q}{\\partial K}\\right) + L\\left(\\frac{\\partial Q}{\\partial L}\\right)$ is equal to:",
+    "options": [
+      "$1.2Q$",
+      "$Q$",
+      "$0.2Q$",
+      "$1.5Q$"
+    ],
+    "ans": 0,
+    "explanation": "The production function is a Cobb-Douglas function $Q = A K^{\\alpha} L^{\\beta}$. The degree of homogeneity ($n$) is the sum of the exponents: $n = 0.7 + 0.5 = 1.2$. Euler's theorem states that for a homogeneous function of degree n, $K\\left(\\frac{\\partial Q}{\\partial K}\\right) + L\\left(\\frac{\\partial Q}{\\partial L}\\right) = nQ$. Therefore, the value is $1.2Q$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 34,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "An individual wants to maximize utility $U = XY$ subject to the budget constraint $2X + 4Y = 40$. What is the value of the Lagrangian multiplier ($\\lambda$) at the optimal choice?",
+    "options": [
+      "1.25",
+      "2.50",
+      "5.00",
+      "10.00"
+    ],
+    "ans": 1,
+    "explanation": "The first-order conditions for $U = XY$ give $MU_x = Y$ and $MU_y = X$. Setting $MRS = P_x / P_y$ gives $Y / X = 2 / 4$, so $X = 2Y$. Substituting into the budget constraint: $2(2Y) + 4Y = 40$, which means $8Y = 40$, so $Y = 5$ and $X = 10$. The Lagrangian multiplier $\\lambda$ equals $MU_x / P_x$. Thus, $\\lambda = Y / 2 = 5 / 2 = 2.50$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 35,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "If the inverse demand function for a good is given as $P = 50 - 2Q$ and the market equilibrium price is $P_0 = 10$, calculate the consumer surplus.",
+    "options": [
+      "400",
+      "200",
+      "100",
+      "800"
+    ],
+    "ans": 0,
+    "explanation": "First, find the equilibrium quantity by setting $P = 10$: $10 = 50 - 2Q$, so $2Q = 40$, meaning $Q_0 = 20$. The choke price (where $Q=0$) is $P = 50$. Consumer surplus is the area of the triangle under the demand curve and above the price line: $0.5 \\times \\text{Base} \\times \\text{Height} = 0.5 \\times 20 \\times (50 - 10) = 0.5 \\times 20 \\times 40 = 400$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 36,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "What is the specific solution to the first-order differential equation $dy/dt = 0.05y$, given the initial condition $y(0) = 100$?",
+    "options": [
+      "$y(t) = 100e^{0.05t}$",
+      "$y(t) = 100 + 0.05t$",
+      "$y(t) = 0.05e^{100t}$",
+      "$y(t) = 100e^{-0.05t}$"
+    ],
+    "ans": 0,
+    "explanation": "The differential equation $dy/dt = ry$ represents continuous exponential growth and integrates to $y(t) = Ae^{rt}$. Given $r = 0.05$ and the initial condition $y(0) = 100$ (which gives $A = 100$), the specific solution is $y(t) = 100e^{0.05t}$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 37,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "If A and B are symmetric matrices of the same order, which of the following is NOT necessarily a symmetric matrix?",
+    "options": [
+      "A + B",
+      "A - B",
+      "AB + BA",
+      "AB"
+    ],
+    "ans": 3,
+    "explanation": "For a matrix to be symmetric, its transpose must equal itself. The transpose of $AB$ is $(AB)^T = B^T A^T = BA$. Since matrix multiplication is not generally commutative, $BA$ does not necessarily equal $AB$. Therefore, $AB$ is not necessarily symmetric unless A and B commute."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 38,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "The average cost function of a manufacturing firm is given by $AC = 2Q^2 - 6Q + 15$. What is the firm's marginal cost (MC) function?",
+    "options": [
+      "$6Q^2 - 12Q + 15$",
+      "$4Q - 6$",
+      "$2Q^2 - 12Q + 15$",
+      "$6Q^2 - 6Q + 15$"
+    ],
+    "ans": 0,
+    "explanation": "Total Cost (TC) is found by multiplying AC by Q: $TC = AC \\times Q = (2Q^2 - 6Q + 15)Q = 2Q^3 - 6Q^2 + 15Q$. Marginal Cost (MC) is the first derivative of TC with respect to Q. $MC = \\frac{d(TC)}{dQ} = 6Q^2 - 12Q + 15$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 39,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "Match LIST-I (Production Functions) with LIST-II (Functional Forms):\nLIST-I\nA. Cobb-Douglas\nB. Constant Elasticity of Substitution (CES)\nC. Translog\nD. Leontief\n\nLIST-II\nI. $Q = \\min(aK, bL)$\nII. $Q = A K^{\\alpha} L^{\\beta}$\nIII. $\\ln Q = a + b \\ln K + c \\ln L + d \\ln K \\ln L + \\dots$\nIV. $Q = A [\\alpha K^{-\\rho} + (1-\\alpha)L^{-\\rho}]^{-1/\\rho}$\n\nChoose the correct answer from the options given below:",
+    "options": [
+      "A-II, B-IV, C-III, D-I",
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-IV, C-II, D-I",
+      "A-IV, B-II, C-III, D-I"
+    ],
+    "ans": 0,
+    "explanation": "Cobb-Douglas is the standard multiplicative form (A-II). CES uses the $\\rho$ parameter for substitution (B-IV). Translog (transcendental logarithmic) is represented by the logarithmic polynomial (C-III). Leontief implies perfect complements with the $\\min()$ operator (D-I)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 40,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "Consider a 3x3 matrix A with a determinant $|A| = 4$. What is the determinant of the matrix formed by multiplying every element of A by 3 (i.e., $|3A|$)?",
+    "options": [
+      "12",
+      "36",
+      "108",
+      "4"
+    ],
+    "ans": 2,
+    "explanation": "The property of determinants states that for an n x n matrix, scaling the matrix by a scalar '$k$' scales the determinant by $k^n$. Therefore, $|kA| = k^n |A|$. Here, $k = 3$ and $n = 3$. So, $|3A| = 3^3 \\times 4 = 27 \\times 4 = 108$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 41,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "In a two-sector Leontief input-output model, the technology coefficient matrix A is $\\begin{bmatrix} 0.2 & 0.3 \\\\ 0.4 & 0.1 \\end{bmatrix}$. What is the determinant of the Leontief matrix $(I - A)$?",
+    "options": [
+      "0.60",
+      "0.72",
+      "0.80",
+      "0.50"
+    ],
+    "ans": 0,
+    "explanation": "The Identity matrix I is $\\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$. The Leontief matrix is $(I - A) = \\begin{bmatrix} 0.8 & -0.3 \\\\ -0.4 & 0.9 \\end{bmatrix}$. The determinant is $(0.8 \\times 0.9) - (-0.3 \\times -0.4) = 0.72 - 0.12 = 0.60$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 42,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "Given the nonlinear function $y = 5x^3$, what is the constant point elasticity of y with respect to x?",
+    "options": [
+      "3",
+      "5",
+      "15",
+      "1/3"
+    ],
+    "ans": 0,
+    "explanation": "The point elasticity of y with respect to x is $(dy/dx) \\times (x/y)$. The derivative $dy/dx = 15x^2$. Plugging this into the formula: $15x^2 \\times \\left(\\frac{x}{5x^3}\\right) = \\frac{15x^3}{5x^3} = 3$. A power function of the form $y = Ax^n$ always has a constant elasticity equal to its exponent $n$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 43,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "Which of the following mathematical set notations correctly represents a 'half-open interval' between two real numbers a and b (where a < b)?",
+    "options": [
+      "$\\{x \\in \\mathbb{R} : a < x < b\\}$",
+      "$\\{x \\in \\mathbb{R} : a \\leq x \\leq b\\}$",
+      "$\\{x \\in \\mathbb{R} : a \\leq x < b\\}$",
+      "$\\{x \\in \\mathbb{R} : a > x > b\\}$"
+    ],
+    "ans": 2,
+    "explanation": "A half-open (or half-closed) interval includes one endpoint but excludes the other. $\\{x \\in \\mathbb{R} : a \\leq x < b\\}$ includes '$a$' but excludes '$b$', mapping perfectly to the half-open interval $[a, b)$. Options 0 and 1 are open and closed intervals, respectively."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 44,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "Assertion A: For a continuous function f(x) to have a local maximum at x = a, its first derivative must be zero and its second derivative must be strictly positive at x = a.\nReason R: A zero first derivative identifies a critical point, and a negative second derivative confirms the curve is concave downward at that point.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is NOT the correct explanation of A",
+      "A is correct but R is not correct",
+      "A is not correct but R is correct"
+    ],
+    "ans": 3,
+    "explanation": "Assertion A is incorrect because a local maximum requires the second derivative to be negative (concave down), not strictly positive (which would indicate a local minimum). Reason R is mathematically correct as it accurately defines the true second-order condition for a local maximum."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 45,
+    "type": "MCQ",
+    "section": "Mathematical Methods",
+    "q": "A firm maximizes its profit function $\\pi(x,y)$ subject to two independent choice variables x and y. For the optimal solution (x*, y*) to be a strict global maximum, the Hessian matrix of the profit function must be:",
+    "options": [
+      "Positive Definite",
+      "Negative Definite",
+      "Indefinite",
+      "Positive Semi-Definite"
+    ],
+    "ans": 1,
+    "explanation": "The second-order sufficient condition for a strict maximum of a multivariable function requires the objective function to be strictly concave. In terms of matrix algebra, this means the corresponding Hessian matrix evaluated at the critical point must be negative definite (e.g., $f_{xx} < 0$ and $f_{xx}f_{yy} - (f_{xy})^2 > 0$)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 46,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "Let X be a random variable with a known variance $Var(X)$. If a new random variable is defined as $Y = 50 - 5X$, what is the variance of Y?",
+    "options": [
+      "$25 \\times Var(X)$",
+      "$-5 \\times Var(X)$",
+      "$5 \\times Var(X)$",
+      "$-25 \\times Var(X)$"
+    ],
+    "ans": 0,
+    "explanation": "The variance of a linear transformation $Y = a + bX$ is given by the property $Var(Y) = b^2 Var(X)$. The constant '$a$' (50) does not affect variance. Here, $b = -5$, so $b^2 = (-5)^2 = 25$. Therefore, $Var(Y) = 25 Var(X)$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 47,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "What is the geometric mean of the dataset: 3, 9, and 27?",
+    "options": [
+      "9",
+      "13",
+      "27",
+      "3"
+    ],
+    "ans": 0,
+    "explanation": "The geometric mean of n observations is the n-th root of their product. Here, $n = 3$. The product is $3 \\times 9 \\times 27 = 729$. The cube root of 729 is 9. Alternatively, using powers of 3: $(3^1 \\times 3^2 \\times 3^3)^{1/3} = (3^6)^{1/3} = 3^2 = 9$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 48,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "For a binomial distribution with parameters n and p, the mean is 10 and the variance is 6. What is the probability of success (p) in each trial?",
+    "options": [
+      "0.6",
+      "0.4",
+      "0.5",
+      "0.2"
+    ],
+    "ans": 1,
+    "explanation": "For a binomial distribution, Mean = $np = 10$, and Variance = $npq = 6$ (where $q = 1 - p$). Dividing the variance by the mean gives $(npq) / (np) = 6 / 10$. Therefore, $q = 0.6$. Since $p + q = 1$, the probability of success $p = 1 - 0.6 = 0.4$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 49,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "Consider the following statements regarding the Coefficient of Determination ($R^2$) in a classical linear regression model:\nA. It measures the proportion of the total variation in the dependent variable explained by the explanatory variables.\nB. It can take negative values in a model with a properly estimated intercept.\nC. Adding an irrelevant explanatory variable to the model will never decrease the unadjusted $R^2$.\nD. In a simple two-variable linear regression, $R^2$ is the square of the sample correlation coefficient between X and Y.\nChoose the correct answer from the options given below:",
+    "options": [
+      "A, B, and C only",
+      "A, C, and D only",
+      "B, C, and D only",
+      "A, B, and D only"
+    ],
+    "ans": 1,
+    "explanation": "Statements A and D are fundamental definitions. Statement C is true: adding any variable, even an irrelevant one, will either increase or keep unadjusted $R^2$ the same (which is why Adjusted $R^2$ is used). Statement B is false: $R^2$ is bounded between 0 and 1 in a model with an intercept."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 50,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "Match LIST-I (Violations of OLS Assumptions) with LIST-II (Their Consequences or Definitions):\nLIST-I\nA. Heteroskedasticity\nB. Autocorrelation\nC. Perfect Multicollinearity\nD. Endogeneity\n\nLIST-II\nI. Error terms of different observations are correlated.\nII. Correlation exists between an explanatory variable and the error term.\nIII. The variance of the error term is not constant across observations.\nIV. Exact linear relationship exists among the explanatory variables.\n\nChoose the correct answer:",
+    "options": [
+      "A-III, B-I, C-IV, D-II",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-II, C-III, D-I"
+    ],
+    "ans": 0,
+    "explanation": "Heteroskedasticity means non-constant variance (A-III). Autocorrelation means errors are correlated over time or space (B-I). Perfect multicollinearity refers to an exact linear relationship among regressors (C-IV). Endogeneity occurs when a regressor is correlated with the error term (D-II)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 51,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "Suppose a discrete random variable X takes the value 4 with a probability of 0.5, and the value -2 with a probability of 0.5. Calculate the expected value $E(X^2)$.",
+    "options": [
+      "10",
+      "6",
+      "2",
+      "8"
+    ],
+    "ans": 0,
+    "explanation": "The expected value $E(X^2)$ is the sum of the squared values of X multiplied by their respective probabilities. $E(X^2) = (4^2 \\times 0.5) + ((-2)^2 \\times 0.5) = (16 \\times 0.5) + (4 \\times 0.5) = 8 + 2 = 10$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 52,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "Assertion A: In a multiple regression model, the presence of perfect multicollinearity prevents the Ordinary Least Squares (OLS) estimators from being uniquely computed.\nReason R: Perfect multicollinearity causes the matrix of explanatory variables to be perfectly linearly dependent, making the design matrix ($X'X$) singular and non-invertible.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is NOT the correct explanation of A",
+      "A is correct but R is not correct",
+      "A is not correct but R is correct"
+    ],
+    "ans": 0,
+    "explanation": "The OLS estimator formula is $\\hat{\\beta} = (X'X)^{-1} X'Y$. When there is perfect multicollinearity, the columns of matrix X are linearly dependent. This makes the determinant of ($X'X$) zero (a singular matrix), meaning its inverse $(X'X)^{-1}$ cannot be computed. Thus, R perfectly explains A."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 53,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "In statistical theory, the 'Standard Error' of a statistic (such as the sample mean) specifically measures:",
+    "options": [
+      "The variance of the population divided by the sample size.",
+      "The standard deviation of the sampling distribution of that statistic.",
+      "The average squared deviation of individual data points from the sample median.",
+      "The specification error of the linear regression model."
+    ],
+    "ans": 1,
+    "explanation": "The standard error is defined as the standard deviation of the sampling distribution of a sample statistic. It measures the precision of the sample estimate relative to the true population parameter."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 54,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "Calculate the sample standard deviation for the following sample data: 3, 5, and 7.",
+    "options": [
+      "2.00",
+      "4.00",
+      "1.41",
+      "8.00"
+    ],
+    "ans": 0,
+    "explanation": "Step 1: Find the mean $\\bar{x} = (3+5+7)/3 = 5$. Step 2: Calculate the squared deviations from the mean: $(3-5)^2 = 4$, $(5-5)^2 = 0$, $(7-5)^2 = 4$. Step 3: Sum the squared deviations = $4+0+4 = 8$. Step 4: Divide by $n-1$ for a sample variance: $s^2 = 8 / (3-1) = 8 / 2 = 4$. Step 5: The sample standard deviation is the square root of the variance: $s = \\sqrt{4} = 2.00$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 55,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "Let the correlation coefficient between variables X and Y be 0.8. If two new variables are defined as $U = 2X + 5$ and $V = -3Y + 10$, what is the correlation coefficient between U and V?",
+    "options": [
+      "0.8",
+      "-0.8",
+      "0.24",
+      "-0.24"
+    ],
+    "ans": 1,
+    "explanation": "The correlation coefficient is independent of changes in origin (the +5 and +10 do not matter) and scale, except for the signs of the scaling factors. Because X is multiplied by a positive number (2) and Y is multiplied by a negative number (-3), the sign of the correlation reverses. Thus, $r_{uv} = -r_{xy} = -0.8$."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 56,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "For a random variable X following a Poisson distribution, it is given that the probability of observing 1 success equals the probability of observing 2 successes, i.e., $P(X=1) = P(X=2)$. What is the expected mean value of this distribution?",
+    "options": [
+      "1",
+      "2",
+      "0.5",
+      "4"
+    ],
+    "ans": 1,
+    "explanation": "The Poisson probability mass function is $P(x) = \\frac{e^{-\\lambda} \\lambda^x}{x!}$, where $\\lambda$ is the mean. Setting $P(X=1) = P(X=2)$ gives $\\frac{e^{-\\lambda} \\lambda^1}{1!} = \\frac{e^{-\\lambda} \\lambda^2}{2!}$. Canceling $e^{-\\lambda}$ from both sides yields $\\lambda = \\lambda^2 / 2$. Since $\\lambda$ cannot be 0 for a valid Poisson distribution, divide by $\\lambda$ to get $1 = \\lambda / 2$, meaning $\\lambda = 2$. The mean is 2."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 57,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "In statistical hypothesis testing, the 'Power of a test' is defined as the probability of:",
+    "options": [
+      "Rejecting the null hypothesis when it is actually true.",
+      "Failing to reject the null hypothesis when it is false.",
+      "Rejecting the null hypothesis when it is actually false.",
+      "Failing to reject the null hypothesis when it is true."
+    ],
+    "ans": 2,
+    "explanation": "The power of a statistical test is $1 - P(\\text{Type II Error})$. It represents the probability of correctly rejecting a false null hypothesis (i.e., successfully detecting an effect that actually exists)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 58,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "Match LIST-I (Index Numbers) with LIST-II (Weighting Methods):\nLIST-I\nA. Laspeyres Price Index\nB. Paasche Price Index\nC. Fisher's Ideal Index\nD. Unweighted Price Index\n\nLIST-II\nI. Geometric mean of base-year weighted and current-year weighted indices.\nII. Simple arithmetic mean of price relatives.\nIII. Uses base-year quantities as weights.\nIV. Uses current-year quantities as weights.\n\nChoose the correct answer:",
+    "options": [
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-I, D-II",
+      "A-III, B-I, C-IV, D-II",
+      "A-I, B-II, C-III, D-IV"
+    ],
+    "ans": 0,
+    "explanation": "Laspeyres index holds the basket fixed at base-year quantities (A-III). Paasche index uses the current-year quantities as weights (B-IV). Fisher's index is the geometric mean of Laspeyres and Paasche (C-I). An unweighted index averages price relatives without assigned weights (D-II)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 59,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "In a simple bivariate linear regression model $Y = a + bX + u$, the Ordinary Least Squares (OLS) estimator for the slope coefficient (b) is calculated as:",
+    "options": [
+      "Covariance(X,Y) / Variance(X)",
+      "Covariance(X,Y) / Variance(Y)",
+      "Variance(X) / Covariance(X,Y)",
+      "Correlation(X,Y) * [Variance(X) / Variance(Y)]"
+    ],
+    "ans": 0,
+    "explanation": "By minimizing the sum of squared residuals, the normal equations yield the OLS slope estimator $b = \\frac{\\sum x_i y_i}{\\sum x_i^2}$, where x and y are deviations from their means. This is mathematically identical to Covariance(X,Y) / Variance(X)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 60,
+    "type": "MCQ",
+    "section": "Statistical Methods & Econometrics",
+    "q": "For a standard, perfectly symmetrical normal distribution (mesokurtic), what are the theoretical values of its skewness and excess kurtosis, respectively?",
+    "options": [
+      "0 and 0",
+      "0 and 3",
+      "1 and 3",
+      "0 and 1"
+    ],
+    "ans": 0,
+    "explanation": "A perfectly symmetrical distribution has a skewness of 0. A normal (mesokurtic) distribution has a standard kurtosis of 3. 'Excess kurtosis' is defined as Kurtosis - 3. Therefore, the excess kurtosis of a normal distribution is $3 - 3 = 0$. The correct pairing is 0 and 0."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 61,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "Arrange the following seminal theories of International Trade in chronological order from oldest to latest:\nA. Heckscher-Ohlin Factor Endowment Theory\nB. Theory of Absolute Advantage\nC. New Trade Theory (Krugman)\nD. The Leontief Paradox\nChoose the correct sequence from the options below:",
+    "options": [
+      "B, A, D, C",
+      "B, A, C, D",
+      "A, B, D, C",
+      "B, D, A, C"
+    ],
+    "ans": 0,
+    "explanation": "Adam Smith proposed Absolute Advantage in 1776 (B). The Heckscher-Ohlin model was formulated in the 1920s/1933 (A). Wassily Leontief published his Paradox testing the H-O model in 1953 (D). Paul Krugman developed New Trade Theory (incorporating economies of scale and network effects) in 1979 (C)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 62,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "When a small open economy imposes an import tariff on a good, which of the following correctly describes the welfare effects compared to free trade?",
+    "options": [
+      "Domestic producer surplus increases, domestic consumer surplus decreases, and overall national welfare falls.",
+      "Domestic producer surplus decreases, domestic consumer surplus increases, and overall national welfare rises.",
+      "Both domestic consumer and producer surplus increase, but deadweight loss is created.",
+      "The world price of the good decreases, improving the country's terms of trade."
+    ],
+    "ans": 0,
+    "explanation": "For a small open economy, a tariff raises the domestic price by the full amount of the tariff. This strictly hurts domestic consumers (lower consumer surplus) and benefits domestic producers (higher producer surplus). Because the efficiency losses (deadweight loss) outweigh the gains in producer surplus and government tariff revenue, overall national welfare unambiguously falls."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 63,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "Which of the following transactions is strictly recorded in the Capital Account of a country's Balance of Payments (BoP)?",
+    "options": [
+      "Foreign Direct Investment (FDI) inflows.",
+      "Remittances sent by Indian workers residing in the Middle East.",
+      "Earnings from the export of software services.",
+      "Interest payments made on external commercial borrowings."
+    ],
+    "ans": 0,
+    "explanation": "The Capital Account (or Financial Account in modern IMF terminology) records transactions involving the purchase or sale of assets, such as FDI, Foreign Portfolio Investment (FPI), and external loans. Remittances (transfers), service exports (invisibles), and interest payments (primary income) are all recorded in the Current Account."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 64,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "According to the Heckscher-Ohlin (H-O) theorem, the fundamental determinant of the pattern of international trade between two nations is:",
+    "options": [
+      "Differences in relative factor endowments between the nations.",
+      "Absolute differences in labor productivity and technology.",
+      "The existence of internal and external economies of scale.",
+      "Differences in consumer tastes and preferences."
+    ],
+    "ans": 0,
+    "explanation": "The H-O theorem states that a country will export goods that make intensive use of the factors of production that are locally abundant, and import goods that make intensive use of factors that are locally scarce. Thus, comparative advantage arises entirely from differences in relative factor endowments (capital vs. labor)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 65,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "Arrange the following expert committees on poverty estimation in India in the chronological order of their constitution:\nA. D.T. Lakdawala Committee\nB. Y.K. Alagh Committee\nC. C. Rangarajan Committee\nD. Suresh Tendulkar Committee",
+    "options": [
+      "B, A, D, C",
+      "A, B, D, C",
+      "B, A, C, D",
+      "A, D, B, C"
+    ],
+    "ans": 0,
+    "explanation": "The chronological order of major poverty estimation committees in India is: Y.K. Alagh Task Force (1979) -> D.T. Lakdawala Committee (1993) -> Suresh Tendulkar Committee (2009) -> C. Rangarajan Committee (2012)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 66,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "Match LIST-I (Colonial Land Revenue Systems) with LIST-II (Primary Architects/Introducers):\nLIST-I\nA. Permanent Settlement\nB. Ryotwari System\nC. Mahalwari System\n\nLIST-II\nI. Thomas Munro and Alexander Reed\nII. Holt Mackenzie\nIII. Lord Cornwallis\n\nChoose the correct answer:",
+    "options": [
+      "A-III, B-I, C-II",
+      "A-III, B-II, C-I",
+      "A-I, B-III, C-II",
+      "A-II, B-I, C-III"
+    ],
+    "ans": 0,
+    "explanation": "The Permanent Settlement (Zamindari) was introduced in Bengal by Lord Cornwallis in 1793 (A-III). The Ryotwari system was established in the Madras and Bombay Presidencies by Thomas Munro and Alexander Reed (B-I). The Mahalwari system was introduced in the North-Western Provinces by Holt Mackenzie in 1822 (C-II)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 67,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "Assertion A: The 1991 New Economic Policy in India effectively dismantled the 'License Raj' by abolishing industrial licensing for almost all sectors.\nReason R: The primary goal of dismantling industrial licensing was to expand the monopoly of public sector enterprises in consumer goods manufacturing.\nIn the light of the above statements, choose the most appropriate answer:",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is NOT the correct explanation of A",
+      "A is correct but R is not correct",
+      "A is not correct but R is correct"
+    ],
+    "ans": 2,
+    "explanation": "Assertion A is historically correct; the 1991 reforms abolished licensing for all but a few hazardous/strategic industries. Reason R is completely false; the goal of the reforms (Liberalization and Privatization) was to reduce the dominance of the public sector and encourage private sector competition, not expand public monopolies."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 68,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "The Mahalanobis strategy of economic development, which heavily prioritized rapid industrialization through massive investments in heavy industries and capital goods, served as the architectural framework for which of India's Five-Year Plans?",
+    "options": [
+      "Second Five-Year Plan",
+      "First Five-Year Plan",
+      "Third Five-Year Plan",
+      "Fifth Five-Year Plan"
+    ],
+    "ans": 0,
+    "explanation": "The Second Five-Year Plan (1956-1961) was explicitly based on the two-sector and four-sector models developed by P.C. Mahalanobis. It shifted India's focus away from agriculture (First Plan) toward heavy, capital-intensive industrialization."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 69,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "If the Government's Gross Fiscal Deficit is Rs. 1,200 crore, the Revenue Deficit is Rs. 700 crore, and total Interest Payments are Rs. 450 crore, what is the Gross Primary Deficit?",
+    "options": [
+      "Rs. 750 crore",
+      "Rs. 250 crore",
+      "Rs. 500 crore",
+      "Rs. 1,650 crore"
+    ],
+    "ans": 0,
+    "explanation": "The formula for Gross Primary Deficit is: Gross Fiscal Deficit minus Interest Payments. Substituting the given values: $1200 - 450 = 750$ crore. The Revenue Deficit figure is a distractor and not needed for this calculation."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 70,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "Arrange the establishment years of the following major Indian economic institutions in chronological order:\nA. National Bank for Agriculture and Rural Development (NABARD)\nB. Reserve Bank of India (RBI)\nC. Securities and Exchange Board of India (SEBI - Statutory Status)\nD. State Bank of India (SBI)",
+    "options": [
+      "B, D, A, C",
+      "B, A, D, C",
+      "D, B, C, A",
+      "B, D, C, A"
+    ],
+    "ans": 0,
+    "explanation": "The RBI was established in 1935 (B). The Imperial Bank was nationalized to form SBI in 1955 (D). NABARD was established in 1982 (A). SEBI was given statutory powers in 1992 (C). The correct sequence is B, D, A, C."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 71,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "According to the classification used by the Agriculture Census of India, an operational landholding sized between 1.0 hectare and 2.0 hectares is formally categorized as a:",
+    "options": [
+      "Small holding",
+      "Marginal holding",
+      "Semi-medium holding",
+      "Medium holding"
+    ],
+    "ans": 0,
+    "explanation": "The Ministry of Agriculture classifies landholdings as follows: Marginal (less than 1 hectare), Small (1.0 to 2.0 hectares), Semi-medium (2.0 to 4.0 hectares), Medium (4.0 to 10.0 hectares), and Large (10.0 hectares and above)."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 72,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "Suppose the nominal exchange rate (e) is 80 INR per USD. A standard basket of goods costs P = 4000 INR in India and P* = 100 USD in the United States. What is the Real Exchange Rate (RER) between India and the US, measured as the relative price of US goods in terms of Indian goods?",
+    "options": [
+      "2.0",
+      "0.5",
+      "1.0",
+      "8.0"
+    ],
+    "ans": 0,
+    "explanation": "The Real Exchange Rate is calculated as $RER = (e \\times P*) / P$. Substituting the values: $RER = (80 \\times 100) / 4000 = 8000 / 4000 = 2.0$. This means one US basket of goods exchanges for two Indian baskets of goods."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 73,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "In International Trade theory, the 'Net Barter Terms of Trade' (NBTT) is strictly defined and calculated as:",
+    "options": [
+      "The ratio of the country's export price index to its import price index.",
+      "The ratio of the country's export volume index to its import volume index.",
+      "The ratio of the value of total exports to the value of total imports.",
+      "The export price index multiplied by the export volume index."
+    ],
+    "ans": 0,
+    "explanation": "Net Barter Terms of Trade (also known as Commodity Terms of Trade) measures the purchasing power of a country's exports. It is mathematically defined as $(P_x / P_m) \\times 100$, which is the ratio of the index of export prices to the index of import prices."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 74,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "Which of the following major indirect taxes was NOT subsumed under the Goods and Services Tax (GST) when it was implemented in India?",
+    "options": [
+      "Basic Customs Duty",
+      "Central Excise Duty",
+      "Service Tax",
+      "Value Added Tax (VAT) / Central Sales Tax"
+    ],
+    "ans": 0,
+    "explanation": "When GST was introduced in 2017, it subsumed domestic indirect taxes such as Central Excise Duty, Service Tax, State VAT, and Octroi. However, Basic Customs Duty (levied on imports) remains a separate, standalone tax and was not subsumed into the GST framework."
+  },
+  {
+    "exam": "CUET_PG",
+    "paper": "COQP10",
+    "id": 75,
+    "type": "MCQ",
+    "section": "Indian Economy & International Trade",
+    "q": "In the demographic history of India, the year 1921 is famously referred to as the 'Year of the Great Divide' because:",
+    "options": [
+      "It marks the only decadal census in Indian history where a negative growth rate of population was recorded.",
+      "It marks the exact year India's population crossed the 500 million mark.",
+      "It represents the year the birth rate officially fell below the death rate.",
+      "It signifies the first year a formal national census was successfully conducted."
+    ],
+    "ans": 0,
+    "explanation": "Prior to 1921, India's population fluctuated, growing in some decades and shrinking in others due to famines and epidemics (such as the 1918 influenza). The 1911-1921 decade recorded a negative population growth rate (-0.03%). From 1921 onwards, India's population has grown continuously and consistently every single decade, making it the demographic 'Great Divide'."
+  }
+]
