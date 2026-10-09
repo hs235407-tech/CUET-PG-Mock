@@ -1,5 +1,4 @@
-
-        const megaVault = [
+  const megaVault = [
   {
     "exam": "CUET_PG",
     "paper": "COQP10",
