@@ -60,6 +60,12 @@
             #report-content { background: white !important; padding: 0 !important; }
             #explanations-container > div { page-break-inside: avoid; break-inside: avoid; margin-bottom: 20px !important; }
         }
+        /* Hide mascot on mobile screens for better UX */
+@media (max-width: 768px) {
+   #mascot-container { 
+        display: none !important; 
+    }
+}
     </style>
 </head>
 <body class="bg-animated flex flex-col h-screen">
